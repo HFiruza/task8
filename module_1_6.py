@@ -18,8 +18,8 @@ my_set = {'a', 'b', 'c', 1, 2, 3}
 my_list = [1, 1, 1, 2, 2, 3, 3]
 my_list = set(my_list)
 print(set(my_list))
-print(my_list.add('a'))
-print(my_list.add('b'))
+(my_list.add('a'))
+(my_list.add('b'))
 print(my_list)
-print(my_list.discard('a')) #print(my_list.remove('a'))
+(my_list.discard('a')) #print(my_list.remove('a'))
 print(my_list)
