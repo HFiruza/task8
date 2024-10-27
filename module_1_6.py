@@ -18,8 +18,8 @@ my_set = {'a', 'b', 'c', 1, 2, 3}
 my_list = [1, 1, 1, 2, 2, 3, 3]
 my_list = set(my_list)
 print(set(my_list))
-(my_list.add('a'))
-(my_list.add('b'))
+# (my_list.add('a')) # так писать не нужно, так как получается, что я презентую не массив, а будто бы действие с массивом
+# (my_list.add('b')) # вфходит на консоль None
 print(my_list)
 (my_list.discard('a')) #print(my_list.remove('a'))
 print(my_list)
